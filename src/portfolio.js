@@ -2,12 +2,12 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
-// Summary And Greeting Section
-
 import emoji from "react-easy-emoji";
 
+// Summary And Greeting Section
+
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: true // Set to false to use static SVG
 };
 
 const greeting = {
@@ -17,13 +17,18 @@ const greeting = {
     "A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / ReactJs / NodeJs / PHP / Laravel / CodeIgniter  and some other cool libraries and frameworks."
   ),
   resumeLink:
+<<<<<<< HEAD
     "https://drive.google.com/drive/folders/13rMJZrQQyHyjVYKgyPlgW4mAXfIY8l-n?usp=sharing",
+=======
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+>>>>>>> dda218d7f3f7b3bb3e3b2d6e374eb42e02c1580b
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
+<<<<<<< HEAD
   github: "https://github.com/ImAliSheraz/",
   linkedin: "https://www.linkedin.com/in/imalisheraz/",
   gmail: "imalisheraz@gmail.com",
@@ -31,6 +36,17 @@ const socialMediaLinks = {
   instagram: "https://www.instagram.com/imalisheraz/",
   twitter: "https://twitter.com/imalisheraz",
   // Instagram and Twitter are also supported in the links!
+=======
+  github: "https://github.com/saadpasta",
+  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  gmail: "saadpasta70@gmail.com",
+  gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/saad.pasta7",
+  medium: "https://medium.com/@saadpasta",
+  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  // Instagram, Twitter and Kaggle are also supported in the links!
+  // To customize icons and social links, tweak src/components/SocialMedia
+>>>>>>> dda218d7f3f7b3bb3e3b2d6e374eb42e02c1580b
   display: true // Set true to display this section, defaults to false
 };
 

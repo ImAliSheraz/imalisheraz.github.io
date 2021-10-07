@@ -1,6 +1,6 @@
 {
   "homepage": "https://developerfolio.js.org/",
-  "name": "saadpasta.github.io",
+  "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,11 @@
     "react-headroom": "^3.0.0",
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
+<<<<<<< HEAD
     "react-scripts": "^4.0.3",
+=======
+    "react-scripts": "^3.4.3",
+>>>>>>> dda218d7f3f7b3bb3e3b2d6e374eb42e02c1580b
     "react-test-renderer": "^17.0.2",
     "react-twitter-embed": "3.0.3",
     "sass": "^1.32.8"
@@ -35,11 +39,16 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.3%",
+      "not ie 11",
       "not dead",
       "not op_mini all"
     ],
     "development": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
