@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / ReactJs / NodeJs / PHP / Laravel / CodeIgniter  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1OS6-XYY_e86f4xGcuqFbHXWhf6wifgxj/view?usp=sharing",
+    "https://drive.google.com/drive/folders/13rMJZrQQyHyjVYKgyPlgW4mAXfIY8l-n?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,14 +38,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Crazy Full Stack Developer who wants to explore every technology stack",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Back End / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase / GCP / AWS / Digital Ocean"
     )
   ],
 
@@ -62,44 +63,68 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "jQuery",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
+    {
+      skillName: "CodeIgniter",
+      fontAwesomeClassname: "fas fa-fire-alt"
+    },
+    {
+      skillName: "ReactJs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "NodeJs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL-Database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "GIT",
+      fontAwesomeClassname: "fas fa-code-branch"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "docker",
@@ -115,15 +140,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Superior University",
+      logo: "./assets/images/superior-newlogo.png",
+      subHeader: "Bachelor's degree in Computer Science",
+      duration: "September 2017 - August 2021",
+      desc: "",
+      descBullets: []
     },
     {
       schoolName: "Stanford University",
@@ -142,16 +164,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "PHP",
+      progressPercentage: "95%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Codeigniter",
+      progressPercentage: "93%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Laravel", //Insert stack or technology you have experience in
+      progressPercentage: "88%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "SQL",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
