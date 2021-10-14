@@ -17,18 +17,13 @@ const greeting = {
     "A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / ReactJs / NodeJs / PHP / Laravel / CodeIgniter  and some other cool libraries and frameworks."
   ),
   resumeLink:
-<<<<<<< HEAD
     "https://drive.google.com/drive/folders/13rMJZrQQyHyjVYKgyPlgW4mAXfIY8l-n?usp=sharing",
-=======
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
->>>>>>> dda218d7f3f7b3bb3e3b2d6e374eb42e02c1580b
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-<<<<<<< HEAD
   github: "https://github.com/ImAliSheraz/",
   linkedin: "https://www.linkedin.com/in/imalisheraz/",
   gmail: "imalisheraz@gmail.com",
@@ -36,17 +31,6 @@ const socialMediaLinks = {
   instagram: "https://www.instagram.com/imalisheraz/",
   twitter: "https://twitter.com/imalisheraz",
   // Instagram and Twitter are also supported in the links!
-=======
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
->>>>>>> dda218d7f3f7b3bb3e3b2d6e374eb42e02c1580b
   display: true // Set true to display this section, defaults to false
 };
 
@@ -157,19 +141,11 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Superior University",
-      logo: "./assets/images/superior-newlogo.png",
+      logo: "./assets/images/superior.png",
       subHeader: "Bachelor's degree in Computer Science",
       duration: "September 2017 - August 2021",
       desc: "",
       descBullets: []
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -206,28 +182,24 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Novatore Solutions",
+      companylogo: "./assets/images/novatore.png",
+      date: "September 2021 – Present",
+      desc: "",
+      descBullets: ""
+    },
+    {
+      role: "Software Engineer",
+      company: "Mates Technologies",
+      companylogo: "./assets/images/mates.png",
+      date: "June 2019 – September 2021",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Cooperate with designers to create clean and simple interfaces.",
+        " Develop project concepts and maintain optimal workflow.",
+        "Work with senior developer to manage large, complex projects for corporate clients.",
+        "Control development tasks for different websites as well as challenging back-end server code."
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -352,7 +324,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -371,7 +343,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -384,22 +356,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3174248414",
+  email_address: "imalisheraz@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
@@ -407,15 +379,15 @@ export {
   greeting,
   socialMediaLinks,
   skillsSection,
-  educationInfo,
-  techStack,
   workExperiences,
+  educationInfo,
   openSource,
   bigProjects,
   achievementSection,
   blogSection,
   talkSection,
   podcastSection,
+  techStack,
   contactInfo,
   twitterDetails
 };
