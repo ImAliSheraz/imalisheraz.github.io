@@ -12,7 +12,7 @@ const illustration = {
 
 const greeting = {
     username: "Ali Sheraz",
-    title: "Hi all, I'm Ali Sheraz",
+    title: "Hi, I'm Ali Sheraz",
     subTitle: emoji(
         "A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / ReactJs / NodeJs / PHP / Laravel / CodeIgniter  and some other cool libraries and frameworks."
     ),
@@ -182,16 +182,28 @@ const workExperiences = {
         company: "Novatore Solutions",
         companylogo: "./assets/images/novatore.png",
         date: "September 2021 – Present",
-        desc: "Integrate user-facing elements developed by front-end developers with server-side logic. Develop and design RESTful services and APIs. Build reusable code and libraries for future use. Develop features and improvements to the ongoing products in a secure, well-tested, and performant way. Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, QA, etc.) to maintain a high bar for quality in a fast-paced, iterative environment. Solve technical problems of moderate scope and complexity. Craft code that meets internal standards for style, maintainability, and best practices for a high-scale web environment. Apply latest software design techniques and contribute to the technical design of new solutions.",
-        descBullets: []
+        desc: " ",
+        descBullets: [
+            'Integrate user-facing elements developed by front-end developers with server-side logic.',
+            'Develop and design RESTful services and APIs.',
+            'Build reusable code and libraries for future use.',
+            'Develop features and improvements to the ongoing products in a secure, well-tested, and performant way.',
+            'Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, QA, etc.) to maintain a high bar for quality in a fast-paced, iterative environment.',
+            'Solve technical problems of moderate scope and complexity.'
+        ]
     },
     {
         role: "Software Engineer",
         company: "Mates Technologies",
         companylogo: "./assets/images/mates.png",
         date: "June 2019 – September 2021",
-        desc: "Cooperate with designers to create clean and simple interfaces. Develop project concepts and maintain optimal workflow. Work with senior developer to manage large, complex projects for corporate clients. Control development tasks for different websites as well as challenging back-end server code.",
-        descBullets: []
+        desc: " ",
+        descBullets: [
+            'Cooperate with designers to create clean and simple interfaces.',
+            'Develop project concepts and maintain optimal workflow.',
+            'Work with senior developer to manage large, complex projects for corporate clients.',
+            'Control development tasks for different websites as well as challenging back-end server code.'
+        ]
     }
     ]
 };
@@ -210,7 +222,7 @@ const bigProjects = {
     title: "Big Projects",
     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
     projects: [{
-        image: require("./assets/images/tmc.jpg"),
+        image: "./assets/images/tmc.jpg",
         projectName: "TMC Solicitors",
         projectDesc: "Case Management System",
         footerLink: [{
@@ -221,12 +233,12 @@ const bigProjects = {
         ]
     },
     {
-        image: require("./assets/images/nextuLogo.webp"),
-        projectName: "Slough Islamic Trust",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        image: "./assets/images/drs.jpg",
+        projectName: "DRS",
+        projectDesc: "Resource Management System",
         footerLink: [{
             name: "Visit Website",
-            url: "https://www.sloughislamictrust.org.uk/"
+            url: "https://demo.mates.pk/drs/"
         }]
     }
     ],
@@ -241,43 +253,31 @@ const achievementSection = {
     subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
     achievementsCards: [{
-        title: "Google Code-In Finalist",
-        subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-        image: require("./assets/images/codeInLogo.webp"),
+        title: "Virtual Experience Program Participant",
+        subtitle: "JPMorgan Chase & Co.",
+        image: "./assets/images/jpmorgen.jpg",
         footerLink: [{
             name: "Certification",
-            url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-            name: "Award Letter",
-            url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-            name: "Google Code-in Blog",
-            url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+            url: "https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_pa5777T5Ecqkxnx9L_completion_certificate.pdf"
         }
         ]
     },
     {
-        title: "Google Assistant Action",
-        subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-        image: require("./assets/images/googleAssistantLogo.webp"),
+        title: "Enterprise Design Thinking Practitioner",
+        subtitle: "IBM",
+        image: "./assets/images/ibm.jpg",
         footerLink: [{
-            name: "View Google Assistant Action",
-            url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+            name: "Certification",
+            url: "https://www.credly.com/badges/8a763169-6739-4bbd-9fcf-0359b73712ec"
         }]
     },
 
     {
-        title: "PWA Web App Developer",
-        subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-        image: require("./assets/images/pwaLogo.webp"),
+        title: "DSC Co-Lead",
+        subtitle: "Google Developers",
+        image: "./assets/images/googledev.jpg",
         footerLink: [
-            { name: "Certification", url: "" },
-            {
-                name: "Final Project",
-                url: "https://pakistan-olx-1.firebaseapp.com/"
-            }
+            { name: "Certification", url: "https://dsc-certify.web.app/coreteam/68979542CACA503" }
         ]
     }
     ],
