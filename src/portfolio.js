@@ -14,7 +14,7 @@ const greeting = {
     username: "Ali Sheraz",
     title: "Hi, I'm Ali Sheraz",
     subTitle: emoji(
-        "A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / ReactJs / NodeJs / PHP / Laravel / CodeIgniter  and some other cool libraries and frameworks."
+        "A passionate Software Engineer 🚀 having an experience of building Web applications with JavaScript / ReactJs / NodeJs / PHP / Laravel / CodeIgniter  and some other cool libraries and frameworks."
     ),
     resumeLink: "https://drive.google.com/drive/folders/13rMJZrQQyHyjVYKgyPlgW4mAXfIY8l-n?usp=sharing",
     displayGreeting: true // Set false to hide this section, defaults to true
