@@ -263,21 +263,61 @@ const achievementSection = {
         ]
     },
     {
+        title: "Arctic Code Vault Contributor",
+        subtitle: "GitHub",
+        image: "./assets/images/github-arctic.png",
+        footerLink: [
+            { name: "Visit Profile", url: "https://github.com/ImAliSheraz" }
+        ]
+    },
+    {
+        title: "DSC Co-Lead",
+        subtitle: "Google Developers",
+        image: "./assets/images/dsc.png",
+        footerLink: [
+            { name: "Certification", url: "https://dsc-certify.web.app/coreteam/68979542CACA503" }
+        ]
+    },
+    {
         title: "Enterprise Design Thinking Practitioner",
         subtitle: "IBM",
-        image: "./assets/images/ibm.jpg",
+        image: "./assets/images/IBM-Practitioner.png",
         footerLink: [{
             name: "Certification",
             url: "https://www.credly.com/badges/8a763169-6739-4bbd-9fcf-0359b73712ec"
         }]
     },
+    {
+        title: "IBM Blockchain Essentials V2",
+        subtitle: "IBM",
+        image: "./assets/images/IBM-Blockchain.png",
+        footerLink: [
+            { name: "Certification", url: "https://www.youracclaim.com/badges/4d31406e-4dfe-45b8-bbb3-d10b965287bc" }
+        ]
+    },
+    {
+        title: "Object-Oriented Programming with Java",
+        subtitle: "Coursera",
+        image: "./assets/images/Coursera.jpg",
+        footerLink: [
+            { name: "Certification", url: "https://www.coursera.org/account/accomplishments/certificate/S3FAWYUSVCSY" }
+        ]
+    },
 
     {
-        title: "DSC Co-Lead",
-        subtitle: "Google Developers",
-        image: "./assets/images/googledev.jpg",
+        title: "Cloud SQL",
+        subtitle: "Google Cloud Platform Certified",
+        image: "./assets/images/gcp.png",
         footerLink: [
-            { name: "Certification", url: "https://dsc-certify.web.app/coreteam/68979542CACA503" }
+            { name: "Certification", url: "https://google.qwiklabs.com/public_profiles/1bdcb1ee-7159-46e9-99e3-de31ab1636c3" }
+        ]
+    },
+    {
+        title: "Building Conversational Experiences with Dialogflow",
+        subtitle: "Coursera & Google Cloud",
+        image: "./assets/images/Coursera.jpg",
+        footerLink: [
+            { name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/2B2T3ARA5XJT" }
         ]
     }
     ],
