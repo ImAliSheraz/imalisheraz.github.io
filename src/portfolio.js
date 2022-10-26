@@ -3,6 +3,15 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+
+// Splash Screen
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000 // Set animation duration as per your animation
+};
 
 // Summary And Greeting Section
 
@@ -244,73 +253,54 @@ const achievementSection = {
     title: emoji("Achievements And Certifications 🏆 "),
     subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
-    achievementsCards: [{
-        title: "Virtual Experience Program Participant",
-        subtitle: "JPMorgan Chase & Co.",
-        image: "./assets/images/jpmorgen.jpg",
-        footerLink: [{
-            name: "Certification",
-            url: "https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_pa5777T5Ecqkxnx9L_completion_certificate.pdf"
+  achievementsCards: [
+    {
+      title: "Google Code-In Finalist",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+        {
+          name: "Google Code-in Blog",
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
         ]
     },
     {
-        title: "Arctic Code Vault Contributor",
-        subtitle: "GitHub",
-        image: "./assets/images/github-arctic.png",
-        footerLink: [
-            { name: "Visit Profile", url: "https://github.com/ImAliSheraz" }
-        ]
-    },
-    {
-        title: "DSC Co-Lead",
-        subtitle: "Google Developers",
-        image: "./assets/images/dsc.png",
-        footerLink: [
-            { name: "Certification", url: "https://dsc-certify.web.app/coreteam/68979542CACA503" }
-        ]
-    },
-    {
-        title: "Enterprise Design Thinking Practitioner",
-        subtitle: "IBM",
-        image: "./assets/images/IBM-Practitioner.png",
-        footerLink: [{
-            name: "Certification",
-            url: "https://www.credly.com/badges/8a763169-6739-4bbd-9fcf-0359b73712ec"
-        }]
-    },
-    {
-        title: "IBM Blockchain Essentials V2",
-        subtitle: "IBM",
-        image: "./assets/images/IBM-Blockchain.png",
-        footerLink: [
-            { name: "Certification", url: "https://www.youracclaim.com/badges/4d31406e-4dfe-45b8-bbb3-d10b965287bc" }
-        ]
-    },
-    {
-        title: "Object-Oriented Programming with Java",
-        subtitle: "Coursera",
-        image: "./assets/images/Coursera.jpg",
-        footerLink: [
-            { name: "Certification", url: "https://www.coursera.org/account/accomplishments/certificate/S3FAWYUSVCSY" }
-        ]
+      title: "Google Assistant Action",
+      subtitle:
+        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      imageAlt: "Google Assistant Action Logo",
+      footerLink: [
+        {
+          name: "View Google Assistant Action",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        }
+      ]
     },
 
     {
-        title: "Cloud SQL",
-        subtitle: "Google Cloud Platform Certified",
-        image: "./assets/images/gcp.png",
-        footerLink: [
-            { name: "Certification", url: "https://google.qwiklabs.com/public_profiles/1bdcb1ee-7159-46e9-99e3-de31ab1636c3" }
-        ]
-    },
-    {
-        title: "Building Conversational Experiences with Dialogflow",
-        subtitle: "Coursera & Google Cloud",
-        image: "./assets/images/Coursera.jpg",
-        footerLink: [
-            { name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/2B2T3ARA5XJT" }
-        ]
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
     }
     ],
     display: true // Set false to hide this section, defaults to true
@@ -319,13 +309,16 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-    title: "Blogs",
-    subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
-    blogs: [{
-        url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-        title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-        description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+  title: "Blogs",
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  blogs: [
+    {
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      description:
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
         url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
@@ -367,10 +360,11 @@ const podcastSection = {
 };
 
 const contactInfo = {
-    title: emoji("Contact Me ☎️"),
-    subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+92-3174248414",
-    email_address: "imalisheraz@gmail.com"
+  title: emoji("Contact Me ☎️"),
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+92-0000000000",
+  email_address: "saadpasta70@gmail.com"
 };
 
 // Twitter Section
@@ -380,20 +374,24 @@ const twitterDetails = {
     display: false // Set true to display this section, defaults to false
 };
 
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 export {
-    illustration,
-    greeting,
-    socialMediaLinks,
-    skillsSection,
-    workExperiences,
-    educationInfo,
-    openSource,
-    bigProjects,
-    achievementSection,
-    blogSection,
-    talkSection,
-    podcastSection,
-    techStack,
-    contactInfo,
-    twitterDetails
+  illustration,
+  greeting,
+  socialMediaLinks,
+  splashScreen,
+  skillsSection,
+  educationInfo,
+  techStack,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  blogSection,
+  talkSection,
+  podcastSection,
+  contactInfo,
+  twitterDetails,
+  isHireable
 };
