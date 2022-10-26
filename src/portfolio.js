@@ -14,7 +14,7 @@ const greeting = {
     username: "Ali Sheraz",
     title: "Hi, I'm Ali Sheraz",
     subTitle: emoji(
-        "A passionate Software Engineer 🚀 having an experience of building Web applications with JavaScript / ReactJs / NodeJs / PHP / Laravel / CodeIgniter  and some other cool libraries and frameworks."
+        "I am Doer 🚀, not Dreamer. I have a passion to lead, explore and experiment with new things. I'm a passionate full-stack engineer with more than 3 years of professional experience in PHP and JavaScript ecosystems. I believe in client satisfaction, honesty, integrity, and smart work. "
     ),
     resumeLink: "https://drive.google.com/drive/folders/13rMJZrQQyHyjVYKgyPlgW4mAXfIY8l-n?usp=sharing",
     displayGreeting: true // Set false to hide this section, defaults to true
@@ -106,14 +106,6 @@ https://fontawesome.com/icons?d=gallery */
     {
         skillName: "Firebase",
         fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-        skillName: "Python",
-        fontAwesomeClassname: "fab fa-python"
-    },
-    {
-        skillName: "Java",
-        fontAwesomeClassname: "fab fa-java"
     },
     {
         skillName: "GIT",
