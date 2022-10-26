@@ -46,19 +46,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "What I do",
-    subTitle: "Crazy Full Stack Developer who wants to explore every technology stack",
+    subTitle: "A full-stack engineer who has passion for building reliable, high availability, and secure applications.",
     skills: [
         emoji(
-            "⚡ Develop highly interactive Back End / User Interfaces for your web and mobile applications"
+            "⚡ Develop highly interactive Back End / User Interfaces for your web and mobile applications."
         ),
-        emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
         emoji(
-            "⚡ Integration of third party services such as Firebase / GCP / AWS / Digital Ocean"
-        )
+            "⚡ Integration of third party services such as Firebase / GCP / AWS / Digital Ocean."
+        ),
+        emoji("⚡ Experienced in developing solutions for a large number of business domains."),
     ],
 
-    /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+    /* Make Sure to include correct Font Awesome Classname to view your icon https://fontawesome.com/icons?d=gallery */
 
     softwareSkills: [{
         skillName: "html-5",
@@ -175,34 +174,51 @@ const techStack = {
 
 const workExperiences = {
     display: true, //Set it to true to show workExperiences Section
-    experience: [{
-        role: "Software Engineer",
-        company: "Novatore Solutions",
-        companylogo: "./assets/images/novatore.png",
-        date: "September 2021 – Present",
-        desc: " ",
-        descBullets: [
-            'Integrate user-facing elements developed by front-end developers with server-side logic.',
-            'Develop and design RESTful services and APIs.',
-            'Build reusable code and libraries for future use.',
-            'Develop features and improvements to the ongoing products in a secure, well-tested, and performant way.',
-            'Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, QA, etc.) to maintain a high bar for quality in a fast-paced, iterative environment.',
-            'Solve technical problems of moderate scope and complexity.'
-        ]
-    },
-    {
-        role: "Software Engineer",
-        company: "Mates Technologies",
-        companylogo: "./assets/images/mates.png",
-        date: "June 2019 – September 2021",
-        desc: " ",
-        descBullets: [
-            'Cooperate with designers to create clean and simple interfaces.',
-            'Develop project concepts and maintain optimal workflow.',
-            'Work with senior developer to manage large, complex projects for corporate clients.',
-            'Control development tasks for different websites as well as challenging back-end server code.'
-        ]
-    }
+    experience: [
+        {
+            role: "Software Engineer",
+            company: "TekRevol",
+            companylogo: "./assets/images/Tekrevol.png",
+            date: "October 2022 – Present",
+            desc: " ",
+            descBullets: [
+                'Develop and design RESTful services and APIs.',
+                'Build reusable code and libraries for future use.',
+                'Develop features and improvements to the ongoing products in a secure, well-tested, and performant way.',
+                'Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, QA, etc.) to maintain a high bar for quality in a fast-paced, iterative environment.',
+                'Solve technical problems of moderate scope and complexity.',
+            ]
+        },
+        {
+            role: "Software Engineer",
+            company: "Novatore Solutions",
+            companylogo: "./assets/images/novatore.png",
+            date: "September 2021 – October 2022",
+            desc: " ",
+            descBullets: [
+                'Integrate user-facing elements developed by front-end developers with server-side logic.',
+                'Develop and design RESTful services and APIs.',
+                'Build reusable code and libraries for future use.',
+                'Develop features and improvements to the ongoing products in a secure, well-tested, and performant way.',
+                'Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, QA, etc.) to maintain a high bar for quality in a fast-paced, iterative environment.',
+                'Solve technical problems of moderate scope and complexity.',
+                'Manage PHP/Laravel Team.',
+                'Communicate with clients and resolve their technical concerns.',
+            ]
+        },
+        {
+            role: "Software Engineer",
+            company: "Mates Technologies",
+            companylogo: "./assets/images/mates.png",
+            date: "June 2019 – September 2021",
+            desc: " ",
+            descBullets: [
+                'Cooperate with designers to create clean and simple interfaces.',
+                'Develop project concepts and maintain optimal workflow.',
+                'Work with senior developer to manage large, complex projects for corporate clients.',
+                'Control development tasks for different websites as well as challenging back-end server code.'
+            ]
+        }
     ]
 };
 
