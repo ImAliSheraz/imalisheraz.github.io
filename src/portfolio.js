@@ -23,7 +23,7 @@ const greeting = {
     username: "Ali Sheraz",
     title: "Hi, I'm Ali Sheraz",
     subTitle: emoji(
-        "I am Doer 🚀, not Dreamer. I have a passion to lead, explore and experiment with new things. I'm a passionate full-stack engineer with more than 3 years of professional experience in PHP and JavaScript ecosystems. I believe in client satisfaction, honesty, integrity, and smart work. "
+        "Helping Businesses Thrive 🚀. I'm a software engineer with a passion for solving complex problems and building innovative solutions. In my current role, I work on a team responsible for designing and implementing features for large-scale web applications. I'm skilled at collaborating with cross-functional teams and have a track record of delivering high-quality code on time."
     ),
     resumeLink: "https://drive.google.com/drive/folders/13rMJZrQQyHyjVYKgyPlgW4mAXfIY8l-n?usp=sharing",
     displayGreeting: true // Set false to hide this section, defaults to true
@@ -35,7 +35,7 @@ const socialMediaLinks = {
     github: "https://github.com/ImAliSheraz/",
     linkedin: "https://www.linkedin.com/in/imalisheraz/",
     gmail: "imalisheraz@gmail.com",
-    facebook: "https://www.facebook.com/imalisheraz",
+    // facebook: "https://www.facebook.com/imalisheraz",
     instagram: "https://www.instagram.com/imalisheraz/",
     twitter: "https://twitter.com/imalisheraz",
     // Instagram and Twitter are also supported in the links!
@@ -52,7 +52,7 @@ const skillsSection = {
             "⚡ Develop highly interactive Back End / User Interfaces for your web and mobile applications."
         ),
         emoji(
-            "⚡ Integration of third party services such as Firebase / GCP / AWS / Digital Ocean."
+            "⚡ Integration of third party services such as Firebase / GCP / AWS / Stripe."
         ),
         emoji("⚡ Experienced in developing solutions for a large number of business domains."),
     ],
@@ -152,22 +152,27 @@ const techStack = {
     experience: [
         {
             Stack: "Laravel", //Insert stack or technology you have experience in
-            progressPercentage: "96%" //Insert relative proficiency in percentage
+            progressPercentage: "98%" //Insert relative proficiency in percentage
         },
         {
-            Stack: "PHP",
+            Stack: "React.js",
+            progressPercentage: "93%"
+        },
+        {
+            Stack: "Adonis.js",
             progressPercentage: "95%"
         },
         {
             Stack: "Node.js",
-            progressPercentage: "93%"
+            progressPercentage: "75%"
         },
         {
-            Stack: "React.js",
-            progressPercentage: "85%"
-        }
+            Stack: "PHP",
+            progressPercentage: "80%"
+        },
+
     ],
-    displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+    displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -182,11 +187,12 @@ const workExperiences = {
             date: "October 2022 – Present",
             desc: " ",
             descBullets: [
-                'Develop and design RESTful services and APIs.',
-                'Build reusable code and libraries for future use.',
-                'Develop features and improvements to the ongoing products in a secure, well-tested, and performant way.',
-                'Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, QA, etc.) to maintain a high bar for quality in a fast-paced, iterative environment.',
-                'Solve technical problems of moderate scope and complexity.',
+                'Built and maintained the back-end of web applications using PHP, Laravel, Node.js, and Adonis.js using the TDD approach.',
+                'Integrated the front-end and back-end of web applications using technologies like AJAX, JSON, and RESTful APIs.',
+                'Developed and maintained databases, including creating and optimizing tables, stored procedures, and functions.',
+                'Implemented user interfaces using HTML, CSS, and React.js.',
+                'Continuously improved the application, troubleshooting and fixing bugs.',
+                'Achieved a 40% reduction in application development time while ensuring scalability and reliability through the use of a preformatted boilerplate.',
             ]
         },
         {
@@ -196,14 +202,11 @@ const workExperiences = {
             date: "September 2021 – October 2022",
             desc: " ",
             descBullets: [
-                'Integrate user-facing elements developed by front-end developers with server-side logic.',
-                'Develop and design RESTful services and APIs.',
-                'Build reusable code and libraries for future use.',
-                'Develop features and improvements to the ongoing products in a secure, well-tested, and performant way.',
-                'Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, QA, etc.) to maintain a high bar for quality in a fast-paced, iterative environment.',
-                'Solve technical problems of moderate scope and complexity.',
-                'Manage PHP/Laravel Team.',
-                'Communicate with clients and resolve their technical concerns.',
+                'Developed 8+ applications using PHP, Laravel and CodeIgniter using the using the TDD and agile approach.',
+                'Integrated frontend components created in React.js with backend logic.',
+                'Designed, developed, and maintained APIs for both internal and external applications.',
+                'Led a team of 4+ web developers and interns.',
+                'Communicated with clients to address and resolve their technical concerns.'
             ]
         },
         {
@@ -213,10 +216,10 @@ const workExperiences = {
             date: "June 2019 – September 2021",
             desc: " ",
             descBullets: [
-                'Cooperate with designers to create clean and simple interfaces.',
-                'Develop project concepts and maintain optimal workflow.',
-                'Work with senior developer to manage large, complex projects for corporate clients.',
-                'Control development tasks for different websites as well as challenging back-end server code.'
+                'Developed over 12 applications within an agile environment, utilizing PHP, Laravel, and CodeIgniter.',
+                'Designed and developed APIs to enhance the functionality of the client\'s CMS.',
+                'Formulated project concepts and optimized workflow processes.',
+                'Conducted technical and requirements gathering meetings with clients.'
             ]
         }
     ]
