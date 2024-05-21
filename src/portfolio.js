@@ -25,7 +25,8 @@ const greeting = {
     subTitle: emoji(
         "Helping Businesses Thrive 🚀. I'm a software engineer with a passion for solving complex problems and building innovative solutions. In my current role, I work on a team responsible for designing and implementing features for large-scale web applications. I'm skilled at collaborating with cross-functional teams and have a track record of delivering high-quality code on time."
     ),
-    resumeLink: "https://drive.google.com/drive/folders/13rMJZrQQyHyjVYKgyPlgW4mAXfIY8l-n?usp=sharing",
+    resumeLink:
+        "https://drive.google.com/drive/folders/13rMJZrQQyHyjVYKgyPlgW4mAXfIY8l-n?usp=sharing",
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,7 +47,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "What I do",
-    subTitle: "A full-stack engineer who has passion for building reliable, high availability, and secure applications.",
+    subTitle:
+        "A full-stack engineer who has passion for building reliable, high availability, and secure applications.",
     skills: [
         emoji(
             "⚡ Develop highly interactive Back End / User Interfaces for your web and mobile applications."
@@ -54,79 +56,82 @@ const skillsSection = {
         emoji(
             "⚡ Integration of third party services such as Firebase / GCP / AWS / Stripe."
         ),
-        emoji("⚡ Experienced in developing solutions for a large number of business domains."),
+        emoji(
+            "⚡ Experienced in developing solutions for a large number of business domains."
+        )
     ],
 
     /* Make Sure to include correct Font Awesome Classname to view your icon https://fontawesome.com/icons?d=gallery */
 
-    softwareSkills: [{
-        skillName: "html-5",
-        fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-        skillName: "css3",
-        fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-        skillName: "Bootstrap",
-        fontAwesomeClassname: "fab fa-bootstrap"
-    },
-    {
-        skillName: "JavaScript",
-        fontAwesomeClassname: "fab fa-js"
-    },
-    {
-        skillName: "jQuery",
-        fontAwesomeClassname: "fas fa-code"
-    },
-    {
-        skillName: "PHP",
-        fontAwesomeClassname: "fab fa-php"
-    },
-    {
-        skillName: "Laravel",
-        fontAwesomeClassname: "fab fa-laravel"
-    },
-    {
-        skillName: "CodeIgniter",
-        fontAwesomeClassname: "fas fa-fire-alt"
-    },
-    {
-        skillName: "ReactJs",
-        fontAwesomeClassname: "fab fa-react"
-    },
-    {
-        skillName: "NodeJs",
-        fontAwesomeClassname: "fab fa-node"
-    },
-    {
-        skillName: "NPM",
-        fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-        skillName: "SQL-Database",
-        fontAwesomeClassname: "fas fa-database"
-    },
-    {
-        skillName: "AWS",
-        fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-        skillName: "Firebase",
-        fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-        skillName: "GIT",
-        fontAwesomeClassname: "fas fa-code-branch"
-    },
-    {
-        skillName: "GitHub",
-        fontAwesomeClassname: "fab fa-github"
-    },
-    {
-        skillName: "docker",
-        fontAwesomeClassname: "fab fa-docker"
-    }
+    softwareSkills: [
+        {
+            skillName: "html-5",
+            fontAwesomeClassname: "fab fa-html5"
+        },
+        {
+            skillName: "css3",
+            fontAwesomeClassname: "fab fa-css3-alt"
+        },
+        {
+            skillName: "Bootstrap",
+            fontAwesomeClassname: "fab fa-bootstrap"
+        },
+        {
+            skillName: "JavaScript",
+            fontAwesomeClassname: "fab fa-js"
+        },
+        {
+            skillName: "jQuery",
+            fontAwesomeClassname: "fas fa-code"
+        },
+        {
+            skillName: "PHP",
+            fontAwesomeClassname: "fab fa-php"
+        },
+        {
+            skillName: "Laravel",
+            fontAwesomeClassname: "fab fa-laravel"
+        },
+        {
+            skillName: "CodeIgniter",
+            fontAwesomeClassname: "fas fa-fire-alt"
+        },
+        {
+            skillName: "ReactJs",
+            fontAwesomeClassname: "fab fa-react"
+        },
+        {
+            skillName: "NodeJs",
+            fontAwesomeClassname: "fab fa-node"
+        },
+        {
+            skillName: "NPM",
+            fontAwesomeClassname: "fab fa-npm"
+        },
+        {
+            skillName: "SQL-Database",
+            fontAwesomeClassname: "fas fa-database"
+        },
+        {
+            skillName: "AWS",
+            fontAwesomeClassname: "fab fa-aws"
+        },
+        {
+            skillName: "Firebase",
+            fontAwesomeClassname: "fas fa-fire"
+        },
+        {
+            skillName: "GIT",
+            fontAwesomeClassname: "fas fa-code-branch"
+        },
+        {
+            skillName: "GitHub",
+            fontAwesomeClassname: "fab fa-github"
+        },
+        {
+            skillName: "docker",
+            fontAwesomeClassname: "fab fa-docker"
+        }
     ],
     display: true // Set false to hide this section, defaults to true
 };
@@ -135,14 +140,16 @@ const skillsSection = {
 
 const educationInfo = {
     display: true, // Set false to hide this section, defaults to true
-    schools: [{
-        schoolName: "Superior University",
-        logo: "./assets/images/superior.png",
-        subHeader: "Bachelor's degree in Computer Science",
-        duration: "September 2017 - August 2021",
-        desc: "",
-        descBullets: []
-    }]
+    schools: [
+        {
+            schoolName: "Superior University",
+            logo: "./assets/images/superior.png",
+            subHeader: "Bachelor's degree in Computer Science",
+            duration: "September 2017 - August 2021",
+            desc: "",
+            descBullets: []
+        }
+    ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -156,21 +163,20 @@ const techStack = {
         },
         {
             Stack: "React.js",
-            progressPercentage: "93%"
-        },
-        {
-            Stack: "Adonis.js",
-            progressPercentage: "95%"
+            progressPercentage: "96%"
         },
         {
             Stack: "Node.js",
-            progressPercentage: "75%"
+            progressPercentage: "95%"
         },
         {
             Stack: "PHP",
-            progressPercentage: "80%"
+            progressPercentage: "97%"
         },
-
+        {
+            Stack: "AWS",
+            progressPercentage: "90%"
+        }
     ],
     displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -182,17 +188,31 @@ const workExperiences = {
     experience: [
         {
             role: "Software Engineer",
+            company: "OneClout",
+            companylogo: "./assets/images/oneclout.jpeg",
+            date: "March 2024 – Present",
+            desc: "Laravel | PHP | AWS | SQL",
+            descBullets: [
+                "Built and maintained web product back-ends with PHP, Laravel, and Node.js using TDD methodology.",
+                "Developed and managed databases, optimizing tables, stored procedures, and functions.",
+                "Continuously enhanced applications, troubleshooting and resolving bugs for existing products.",
+                "Integrated new requirements, features, and third-party platforms (e.g., Meta, ArcGIS, Map APIs, SharePoint, Microsoft, AWS, MFA).",
+                "Wrote unit test cases and managed EC2 servers and deployments."
+            ]
+        },
+        {
+            role: "PHP Developer",
             company: "TekRevol",
             companylogo: "./assets/images/Tekrevol.png",
-            date: "October 2022 – Present",
-            desc: " ",
+            date: "October 2022 – March 2024",
+            desc: "Laravel | PHP | React.js | Node.js | Adonis.js | AWS | SQL",
             descBullets: [
-                'Built and maintained the back-end of web applications using PHP, Laravel, Node.js, and Adonis.js using the TDD approach.',
-                'Integrated the front-end and back-end of web applications using technologies like AJAX, JSON, and RESTful APIs.',
-                'Developed and maintained databases, including creating and optimizing tables, stored procedures, and functions.',
-                'Implemented user interfaces using HTML, CSS, and React.js.',
-                'Continuously improved the application, troubleshooting and fixing bugs.',
-                'Achieved a 40% reduction in application development time while ensuring scalability and reliability through the use of a preformatted boilerplate.',
+                "Built and maintained the back-end of web applications using PHP, Laravel, Node.js, and Adonis.js using the TDD approach.",
+                "Integrated the front-end and back-end of web applications using technologies like AJAX, JSON, and RESTful APIs.",
+                "Developed and maintained databases, including creating and optimizing tables, stored procedures, and functions.",
+                "Implemented user interfaces using HTML, CSS, and React.js.",
+                "Continuously improved the application, troubleshooting and fixing bugs.",
+                "Achieved a 40% reduction in application development time while ensuring scalability and reliability through the use of a preformatted boilerplate."
             ]
         },
         {
@@ -200,13 +220,13 @@ const workExperiences = {
             company: "Novatore Solutions",
             companylogo: "./assets/images/novatore.png",
             date: "September 2021 – October 2022",
-            desc: " ",
+            desc: "Laravel | PHP | React.js | AWS | SQL | Bootstrap | CodeIgniter",
             descBullets: [
-                'Developed 8+ applications using PHP, Laravel and CodeIgniter using the using the TDD and agile approach.',
-                'Integrated frontend components created in React.js with backend logic.',
-                'Designed, developed, and maintained APIs for both internal and external applications.',
-                'Led a team of 4+ web developers and interns.',
-                'Communicated with clients to address and resolve their technical concerns.'
+                "Developed 8+ applications using PHP, Laravel and CodeIgniter using the using the TDD and agile approach.",
+                "Integrated frontend components created in React.js with backend logic.",
+                "Designed, developed, and maintained APIs for both internal and external applications.",
+                "Led a team of 4+ web developers and interns.",
+                "Communicated with clients to address and resolve their technical concerns."
             ]
         },
         {
@@ -214,12 +234,12 @@ const workExperiences = {
             company: "Mates Technologies",
             companylogo: "./assets/images/mates.png",
             date: "June 2019 – September 2021",
-            desc: " ",
+            desc: "Laravel | PHP | SQL | Bootstrap | CodeIgniter",
             descBullets: [
-                'Developed over 12 applications within an agile environment, utilizing PHP, Laravel, and CodeIgniter.',
-                'Designed and developed APIs to enhance the functionality of the client\'s CMS.',
-                'Formulated project concepts and optimized workflow processes.',
-                'Conducted technical and requirements gathering meetings with clients.'
+                "Developed over 12 applications within an agile environment, utilizing PHP, Laravel, and CodeIgniter.",
+                "Designed and developed APIs to enhance the functionality of the client's CMS.",
+                "Formulated project concepts and optimized workflow processes.",
+                "Conducted technical and requirements gathering meetings with clients."
             ]
         }
     ]
@@ -238,26 +258,30 @@ const openSource = {
 const bigProjects = {
     title: "Big Projects",
     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-    projects: [{
-        image: "./assets/images/tmc.jpg",
-        projectName: "TMC Solicitors",
-        projectDesc: "Case Management System",
-        footerLink: [{
-            name: "Visit Website",
-            url: "https://www.leads.tmcsolicitors.co.uk/"
+    projects: [
+        {
+            image: "./assets/images/tmc.jpg",
+            projectName: "TMC Solicitors",
+            projectDesc: "Case Management System",
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://www.leads.tmcsolicitors.co.uk/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },
+        {
+            image: "./assets/images/drs.jpg",
+            projectName: "DRS",
+            projectDesc: "Resource Management System",
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://demo.mates.pk/drs/"
+                }
+            ]
         }
-            //  you can add extra buttons here.
-        ]
-    },
-    {
-        image: "./assets/images/drs.jpg",
-        projectName: "DRS",
-        projectDesc: "Resource Management System",
-        footerLink: [{
-            name: "Visit Website",
-            url: "https://demo.mates.pk/drs/"
-        }]
-    }
     ],
     display: true // Set false to hide this section, defaults to true
 };
@@ -267,60 +291,69 @@ const bigProjects = {
 
 const achievementSection = {
     title: emoji("Achievements And Certifications 🏆 "),
-    subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    subtitle:
+        "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
     achievementsCards: [
         {
             title: "Jira Fundamentals Badge",
             subtitle: "Atlassian University",
             image: "./assets/images/jirafundamentals.png",
-            footerLink: [{
-                name: "Badge",
-                url: "https://university.atlassian.com/student/award/M5LGU7QfuGugP4KdyUD7zuPK"
-            }
+            footerLink: [
+                {
+                    name: "Badge",
+                    url: "https://university.atlassian.com/student/award/M5LGU7QfuGugP4KdyUD7zuPK"
+                }
             ]
         },
         {
             title: "Virtual Experience Program Participant",
             subtitle: "JPMorgan Chase & Co.",
             image: "./assets/images/jpmorgen.jpg",
-            footerLink: [{
-                name: "Certification",
-                url: "https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_pa5777T5Ecqkxnx9L_completion_certificate.pdf"
-            }
+            footerLink: [
+                {
+                    name: "Certification",
+                    url: "https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_pa5777T5Ecqkxnx9L_completion_certificate.pdf"
+                }
             ]
         },
         {
             title: "Arctic Code Vault Contributor",
             subtitle: "GitHub",
             image: "./assets/images/github-arctic.png",
-            footerLink: [
-                { name: "Badge", url: "https://github.com/ImAliSheraz" }
-            ]
+            footerLink: [{ name: "Badge", url: "https://github.com/ImAliSheraz" }]
         },
         {
             title: "DSC Co-Lead",
             subtitle: "Google Developers",
             image: "./assets/images/dsc.png",
             footerLink: [
-                { name: "Certification", url: "https://dsc-certify.web.app/coreteam/68979542CACA503" }
+                {
+                    name: "Certification",
+                    url: "https://dsc-certify.web.app/coreteam/68979542CACA503"
+                }
             ]
         },
         {
             title: "Enterprise Design Thinking Practitioner",
             subtitle: "IBM",
             image: "./assets/images/IBM-Practitioner.png",
-            footerLink: [{
-                name: "Badge",
-                url: "https://www.credly.com/badges/8a763169-6739-4bbd-9fcf-0359b73712ec"
-            }]
+            footerLink: [
+                {
+                    name: "Badge",
+                    url: "https://www.credly.com/badges/8a763169-6739-4bbd-9fcf-0359b73712ec"
+                }
+            ]
         },
         {
             title: "IBM Blockchain Essentials V2",
             subtitle: "IBM",
             image: "./assets/images/IBM-Blockchain.png",
             footerLink: [
-                { name: "Badge", url: "https://www.youracclaim.com/badges/4d31406e-4dfe-45b8-bbb3-d10b965287bc" }
+                {
+                    name: "Badge",
+                    url: "https://www.youracclaim.com/badges/4d31406e-4dfe-45b8-bbb3-d10b965287bc"
+                }
             ]
         },
         {
@@ -328,7 +361,10 @@ const achievementSection = {
             subtitle: "Coursera",
             image: "./assets/images/Coursera.jpg",
             footerLink: [
-                { name: "Certification", url: "https://www.coursera.org/account/accomplishments/certificate/S3FAWYUSVCSY" }
+                {
+                    name: "Certification",
+                    url: "https://www.coursera.org/account/accomplishments/certificate/S3FAWYUSVCSY"
+                }
             ]
         },
 
@@ -337,7 +373,10 @@ const achievementSection = {
             subtitle: "Google Cloud Platform Certified",
             image: "./assets/images/gcp.png",
             footerLink: [
-                { name: "Certification", url: "https://google.qwiklabs.com/public_profiles/1bdcb1ee-7159-46e9-99e3-de31ab1636c3" }
+                {
+                    name: "Certification",
+                    url: "https://google.qwiklabs.com/public_profiles/1bdcb1ee-7159-46e9-99e3-de31ab1636c3"
+                }
             ]
         },
         {
@@ -345,7 +384,10 @@ const achievementSection = {
             subtitle: "Coursera & Google Cloud",
             image: "./assets/images/Coursera.jpg",
             footerLink: [
-                { name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/2B2T3ARA5XJT" }
+                {
+                    name: "Certification",
+                    url: "https://www.coursera.org/account/accomplishments/verify/2B2T3ARA5XJT"
+                }
             ]
         }
     ],
@@ -369,7 +411,8 @@ const blogSection = {
         {
             url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
             title: "Why REACT is The Best?",
-            description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+            description:
+                "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
         }
     ],
     display: false // Set false to hide this section, defaults to true
@@ -383,12 +426,14 @@ const talkSection = {
         "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
     ),
 
-    talks: [{
-        title: "Build Actions For Google Assistant",
-        subtitle: "Codelab at GDG DevFest Karachi 2019",
-        slides_url: "https://bit.ly/saadpasta-slides",
-        event_url: "https://www.facebook.com/events/2339906106275053/"
-    }],
+    talks: [
+        {
+            title: "Build Actions For Google Assistant",
+            subtitle: "Codelab at GDG DevFest Karachi 2019",
+            slides_url: "https://bit.ly/saadpasta-slides",
+            event_url: "https://www.facebook.com/events/2339906106275053/"
+        }
+    ],
     display: false // Set false to hide this section, defaults to true
 };
 
@@ -407,7 +452,8 @@ const podcastSection = {
 
 const contactInfo = {
     title: emoji("Contact Me ☎️"),
-    subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+    subtitle:
+        "Discuss a project or just want to say hi? My Inbox is open for all.",
     number: "+92-3174248414",
     email_address: "imalisheraz@gmail.com"
 };
