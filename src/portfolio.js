@@ -403,19 +403,31 @@ const blogSection = {
     displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
     blogs: [
         {
-            url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-            title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+            url: "https://www.linkedin.com/posts/imalisheraz_promises-in-javascript-activity-7150463739232784384-0c3J?utm_source=share&utm_medium=member_desktop",
+            title: "✨ Understanding Promises in JavaScript",
             description:
-                "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+                "A promise is an object representing the eventual completion or failure of an asynchronous operation. It allows you to handle asynchronous code more organised and readably."
         },
         {
-            url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-            title: "Why REACT is The Best?",
+            url: "https://www.linkedin.com/posts/imalisheraz_introduction-to-caching-techniques-in-laravel-activity-7097879754535579648-5Mzq?utm_source=share&utm_medium=member_desktop",
+            title: "✨ Caching Techniques in Laravel",
             description:
-                "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+                "Caching plays a crucial role in optimizing application performance and responsiveness. In this blog, I'll explore various caching strategies and how they can supercharge your Laravel applications."
+        },
+        {
+            url: "https://www.linkedin.com/posts/imalisheraz_7-tips-for-managing-and-scaling-microservices-activity-7027176353351315456-RzJn?utm_source=share&utm_medium=member_desktop",
+            title: "✨ 7 Tips for Managing and Scaling Microservices Architecture",
+            description:
+                "Writing clean and maintainable code is essential for the long-term success of a software project. Here are five tips for writing code that is easy to read, understand, and maintain."
+        },
+        {
+            url: "https://www.linkedin.com/posts/imalisheraz_7-tips-for-managing-and-scaling-microservices-activity-7027176353351315456-RzJn?utm_source=share&utm_medium=member_desktop",
+            title: "✨ 9 Steps to set up a LAMP server on an Amazon EC2",
+            description:
+                "Here are the basic steps to set up a LAMP server on an Amazon EC2 instance. These are general steps, depending on your requirement you may have to do some more configurations."
         }
     ],
-    display: false // Set false to hide this section, defaults to true
+    display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -454,7 +466,7 @@ const contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle:
         "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+92-3174248414",
+    number: "+92 317 4248414",
     email_address: "imalisheraz@gmail.com"
 };
 
