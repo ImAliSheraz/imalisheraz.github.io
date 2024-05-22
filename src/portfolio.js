@@ -356,40 +356,41 @@ const achievementSection = {
                 }
             ]
         },
-        {
-            title: "Object-Oriented Programming with Java",
-            subtitle: "Coursera",
-            image: "./assets/images/Coursera.jpg",
-            footerLink: [
-                {
-                    name: "Certification",
-                    url: "https://www.coursera.org/account/accomplishments/certificate/S3FAWYUSVCSY"
-                }
-            ]
-        },
-
-        {
-            title: "Cloud SQL",
-            subtitle: "Google Cloud Platform Certified",
-            image: "./assets/images/gcp.png",
-            footerLink: [
-                {
-                    name: "Certification",
-                    url: "https://google.qwiklabs.com/public_profiles/1bdcb1ee-7159-46e9-99e3-de31ab1636c3"
-                }
-            ]
-        },
-        {
-            title: "Building Conversational Experiences with Dialogflow",
-            subtitle: "Coursera & Google Cloud",
-            image: "./assets/images/Coursera.jpg",
-            footerLink: [
-                {
-                    name: "Certification",
-                    url: "https://www.coursera.org/account/accomplishments/verify/2B2T3ARA5XJT"
-                }
-            ]
-        }
+        
+        // Removed
+        // {
+        //     title: "Object-Oriented Programming with Java",
+        //     subtitle: "Coursera",
+        //     image: "./assets/images/Coursera.jpg",
+        //     footerLink: [
+        //         {
+        //             name: "Certification",
+        //             url: "https://www.coursera.org/account/accomplishments/certificate/S3FAWYUSVCSY"
+        //         }
+        //     ]
+        // },
+        // {
+        //     title: "Cloud SQL",
+        //     subtitle: "Google Cloud Platform Certified",
+        //     image: "./assets/images/gcp.png",
+        //     footerLink: [
+        //         {
+        //             name: "Certification",
+        //             url: "https://google.qwiklabs.com/public_profiles/1bdcb1ee-7159-46e9-99e3-de31ab1636c3"
+        //         }
+        //     ]
+        // },
+        // {
+        //     title: "Building Conversational Experiences with Dialogflow",
+        //     subtitle: "Coursera & Google Cloud",
+        //     image: "./assets/images/Coursera.jpg",
+        //     footerLink: [
+        //         {
+        //             name: "Certification",
+        //             url: "https://www.coursera.org/account/accomplishments/verify/2B2T3ARA5XJT"
+        //         }
+        //     ]
+        // }
     ],
     display: true // Set false to hide this section, defaults to true
 };
