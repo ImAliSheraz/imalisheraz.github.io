@@ -48,13 +48,13 @@ const socialMediaLinks = {
 const skillsSection = {
     title: "What I do",
     subTitle:
-        "A full-stack engineer who has passion for building reliable, high availability, and secure applications.",
+        "A software engineer who has passion for building reliable, high availability, and secure applications.",
     skills: [
         emoji(
-            "⚡ Develop highly interactive Back End / User Interfaces for your web and mobile applications."
+            "⚡ Develop highly interactive back-end/front-end and APIs for your software."
         ),
         emoji(
-            "⚡ Integration of third party services such as Firebase / GCP / AWS / Stripe."
+            "⚡ Integration of third party services such as Meta / GCP / AWS / Stripe."
         ),
         emoji(
             "⚡ Experienced in developing solutions for a large number of business domains."
