@@ -437,7 +437,7 @@ const blogSection = {
     title: "Blogs",
     subtitle:
         "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-    displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
     blogs: [
         {
             url: "https://www.linkedin.com/posts/imalisheraz_promises-in-javascript-activity-7150463739232784384-0c3J?utm_source=share&utm_medium=member_desktop",
