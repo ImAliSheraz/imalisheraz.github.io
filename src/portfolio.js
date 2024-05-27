@@ -299,6 +299,39 @@ const achievementSection = {
 
     achievementsCards: [
         {
+            title: "Rest API (Intermediate)",
+            subtitle: "Coursera",
+            image: "./assets/images/hackerrank.jpeg",
+            footerLink: [
+                {
+                    name: "Certification",
+                    url: "https://www.hackerrank.com/certificates/0ddb2242f9a1"
+                }
+            ]
+        },
+        {
+            title: "AWS S3 Basics",
+            subtitle: "Coursera",
+            image: "./assets/images/Coursera.jpg",
+            footerLink: [
+                {
+                    name: "Certification",
+                    url: "https://www.coursera.org/account/accomplishments/certificate/JMFX8EBX9NQX"
+                }
+            ]
+        },
+        {
+            title: "Foundations of Project Management",
+            subtitle: "Coursera",
+            image: "./assets/images/Coursera.jpg",
+            footerLink: [
+                {
+                    name: "Certification",
+                    url: "https://www.coursera.org/account/accomplishments/certificate/VTPHECCKSP98"
+                }
+            ]
+        },
+        {
             title: "Jira Fundamentals Badge",
             subtitle: "Atlassian University",
             image: "./assets/images/jirafundamentals.png",
