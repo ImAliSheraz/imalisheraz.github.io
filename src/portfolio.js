@@ -391,8 +391,8 @@ const achievementSection = {
                     url: "https://www.youracclaim.com/badges/4d31406e-4dfe-45b8-bbb3-d10b965287bc"
                 }
             ]
-        },
-        
+        }
+
         // Removed
         // {
         //     title: "Object-Oriented Programming with Java",
