@@ -147,7 +147,10 @@ const educationInfo = {
             subHeader: "Bachelor's degree in Computer Science",
             duration: "September 2017 - August 2021",
             desc: "",
-            descBullets: []
+            descBullets: [
+                "Gain comprehensive knowledge in software development, algorithms, and data structures.",
+                "Completed projects in web development, database management, and machine learning."
+            ]
         }
     ]
 };
