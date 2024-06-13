@@ -232,19 +232,19 @@ const workExperiences = {
                 "Communicated with clients to address and resolve their technical concerns."
             ]
         },
-        {
-            role: "Software Engineer",
-            company: "Mates Technologies",
-            companylogo: "./assets/images/mates.png",
-            date: "June 2019 – September 2021",
-            desc: "Laravel | PHP | SQL | Bootstrap | CodeIgniter",
-            descBullets: [
-                "Developed over 12 applications within an agile environment, utilizing PHP, Laravel, and CodeIgniter.",
-                "Designed and developed APIs to enhance the functionality of the client's CMS.",
-                "Formulated project concepts and optimized workflow processes.",
-                "Conducted technical and requirements gathering meetings with clients."
-            ]
-        }
+        // {
+        //     role: "Software Engineer",
+        //     company: "Mates Technologies",
+        //     companylogo: "./assets/images/mates.png",
+        //     date: "June 2019 – September 2021",
+        //     desc: "Laravel | PHP | SQL | Bootstrap | CodeIgniter",
+        //     descBullets: [
+        //         "Developed over 12 applications within an agile environment, utilizing PHP, Laravel, and CodeIgniter.",
+        //         "Designed and developed APIs to enhance the functionality of the client's CMS.",
+        //         "Formulated project concepts and optimized workflow processes.",
+        //         "Conducted technical and requirements gathering meetings with clients."
+        //     ]
+        // }
     ]
 };
 
