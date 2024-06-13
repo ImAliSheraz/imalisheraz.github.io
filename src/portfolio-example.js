@@ -25,7 +25,8 @@ const greeting = {
     subTitle: emoji(
         "I am Doer 🚀, not Dreamer. I have a passion to lead, explore and experiment with new things. I'm a passionate full-stack engineer with more than 3 years of professional experience in PHP and JavaScript ecosystems. I believe in client satisfaction, honesty, integrity, and smart work. "
     ),
-    resumeLink: "https://drive.google.com/drive/folders/13rMJZrQQyHyjVYKgyPlgW4mAXfIY8l-n?usp=sharing",
+    resumeLink:
+        "https://drive.google.com/drive/folders/13rMJZrQQyHyjVYKgyPlgW4mAXfIY8l-n?usp=sharing",
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,7 +47,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "What I do",
-    subTitle: "A full-stack engineer who has passion for building reliable, high availability, and secure applications.",
+    subTitle:
+        "A full-stack engineer who has passion for building reliable, high availability, and secure applications.",
     skills: [
         emoji(
             "⚡ Develop highly interactive Back End / User Interfaces for your web and mobile applications."
@@ -54,79 +56,82 @@ const skillsSection = {
         emoji(
             "⚡ Integration of third party services such as Firebase / GCP / AWS / Digital Ocean."
         ),
-        emoji("⚡ Experienced in developing solutions for a large number of business domains."),
+        emoji(
+            "⚡ Experienced in developing solutions for a large number of business domains."
+        )
     ],
 
     /* Make Sure to include correct Font Awesome Classname to view your icon https://fontawesome.com/icons?d=gallery */
 
-    softwareSkills: [{
-        skillName: "html-5",
-        fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-        skillName: "css3",
-        fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-        skillName: "Bootstrap",
-        fontAwesomeClassname: "fab fa-bootstrap"
-    },
-    {
-        skillName: "JavaScript",
-        fontAwesomeClassname: "fab fa-js"
-    },
-    {
-        skillName: "jQuery",
-        fontAwesomeClassname: "fas fa-code"
-    },
-    {
-        skillName: "PHP",
-        fontAwesomeClassname: "fab fa-php"
-    },
-    {
-        skillName: "Laravel",
-        fontAwesomeClassname: "fab fa-laravel"
-    },
-    {
-        skillName: "CodeIgniter",
-        fontAwesomeClassname: "fas fa-fire-alt"
-    },
-    {
-        skillName: "ReactJs",
-        fontAwesomeClassname: "fab fa-react"
-    },
-    {
-        skillName: "NodeJs",
-        fontAwesomeClassname: "fab fa-node"
-    },
-    {
-        skillName: "NPM",
-        fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-        skillName: "SQL-Database",
-        fontAwesomeClassname: "fas fa-database"
-    },
-    {
-        skillName: "AWS",
-        fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-        skillName: "Firebase",
-        fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-        skillName: "GIT",
-        fontAwesomeClassname: "fas fa-code-branch"
-    },
-    {
-        skillName: "GitHub",
-        fontAwesomeClassname: "fab fa-github"
-    },
-    {
-        skillName: "docker",
-        fontAwesomeClassname: "fab fa-docker"
-    }
+    softwareSkills: [
+        {
+            skillName: "html-5",
+            fontAwesomeClassname: "fab fa-html5"
+        },
+        {
+            skillName: "css3",
+            fontAwesomeClassname: "fab fa-css3-alt"
+        },
+        {
+            skillName: "Bootstrap",
+            fontAwesomeClassname: "fab fa-bootstrap"
+        },
+        {
+            skillName: "JavaScript",
+            fontAwesomeClassname: "fab fa-js"
+        },
+        {
+            skillName: "jQuery",
+            fontAwesomeClassname: "fas fa-code"
+        },
+        {
+            skillName: "PHP",
+            fontAwesomeClassname: "fab fa-php"
+        },
+        {
+            skillName: "Laravel",
+            fontAwesomeClassname: "fab fa-laravel"
+        },
+        {
+            skillName: "CodeIgniter",
+            fontAwesomeClassname: "fas fa-fire-alt"
+        },
+        {
+            skillName: "ReactJs",
+            fontAwesomeClassname: "fab fa-react"
+        },
+        {
+            skillName: "NodeJs",
+            fontAwesomeClassname: "fab fa-node"
+        },
+        {
+            skillName: "NPM",
+            fontAwesomeClassname: "fab fa-npm"
+        },
+        {
+            skillName: "SQL-Database",
+            fontAwesomeClassname: "fas fa-database"
+        },
+        {
+            skillName: "AWS",
+            fontAwesomeClassname: "fab fa-aws"
+        },
+        {
+            skillName: "Firebase",
+            fontAwesomeClassname: "fas fa-fire"
+        },
+        {
+            skillName: "GIT",
+            fontAwesomeClassname: "fas fa-code-branch"
+        },
+        {
+            skillName: "GitHub",
+            fontAwesomeClassname: "fab fa-github"
+        },
+        {
+            skillName: "docker",
+            fontAwesomeClassname: "fab fa-docker"
+        }
     ],
     display: true // Set false to hide this section, defaults to true
 };
@@ -135,14 +140,16 @@ const skillsSection = {
 
 const educationInfo = {
     display: true, // Set false to hide this section, defaults to true
-    schools: [{
-        schoolName: "Superior University",
-        logo: "./assets/images/superior.png",
-        subHeader: "Bachelor's degree in Computer Science",
-        duration: "September 2017 - August 2021",
-        desc: "",
-        descBullets: []
-    }]
+    schools: [
+        {
+            schoolName: "Superior University",
+            logo: "./assets/images/superior.png",
+            subHeader: "Bachelor's degree in Computer Science",
+            duration: "September 2017 - August 2021",
+            desc: "",
+            descBullets: []
+        }
+    ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -182,11 +189,11 @@ const workExperiences = {
             date: "October 2022 – Present",
             desc: " ",
             descBullets: [
-                'Develop and design RESTful services and APIs.',
-                'Build reusable code and libraries for future use.',
-                'Develop features and improvements to the ongoing products in a secure, well-tested, and performant way.',
-                'Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, QA, etc.) to maintain a high bar for quality in a fast-paced, iterative environment.',
-                'Solve technical problems of moderate scope and complexity.',
+                "Develop and design RESTful services and APIs.",
+                "Build reusable code and libraries for future use.",
+                "Develop features and improvements to the ongoing products in a secure, well-tested, and performant way.",
+                "Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, QA, etc.) to maintain a high bar for quality in a fast-paced, iterative environment.",
+                "Solve technical problems of moderate scope and complexity."
             ]
         },
         {
@@ -196,14 +203,14 @@ const workExperiences = {
             date: "September 2021 – October 2022",
             desc: " ",
             descBullets: [
-                'Integrate user-facing elements developed by front-end developers with server-side logic.',
-                'Develop and design RESTful services and APIs.',
-                'Build reusable code and libraries for future use.',
-                'Develop features and improvements to the ongoing products in a secure, well-tested, and performant way.',
-                'Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, QA, etc.) to maintain a high bar for quality in a fast-paced, iterative environment.',
-                'Solve technical problems of moderate scope and complexity.',
-                'Manage PHP/Laravel Team.',
-                'Communicate with clients and resolve their technical concerns.',
+                "Integrate user-facing elements developed by front-end developers with server-side logic.",
+                "Develop and design RESTful services and APIs.",
+                "Build reusable code and libraries for future use.",
+                "Develop features and improvements to the ongoing products in a secure, well-tested, and performant way.",
+                "Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, QA, etc.) to maintain a high bar for quality in a fast-paced, iterative environment.",
+                "Solve technical problems of moderate scope and complexity.",
+                "Manage PHP/Laravel Team.",
+                "Communicate with clients and resolve their technical concerns."
             ]
         },
         {
@@ -213,10 +220,10 @@ const workExperiences = {
             date: "June 2019 – September 2021",
             desc: " ",
             descBullets: [
-                'Cooperate with designers to create clean and simple interfaces.',
-                'Develop project concepts and maintain optimal workflow.',
-                'Work with senior developer to manage large, complex projects for corporate clients.',
-                'Control development tasks for different websites as well as challenging back-end server code.'
+                "Cooperate with designers to create clean and simple interfaces.",
+                "Develop project concepts and maintain optimal workflow.",
+                "Work with senior developer to manage large, complex projects for corporate clients.",
+                "Control development tasks for different websites as well as challenging back-end server code."
             ]
         }
     ]
@@ -235,26 +242,30 @@ const openSource = {
 const bigProjects = {
     title: "Big Projects",
     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-    projects: [{
-        image: "./assets/images/tmc.jpg",
-        projectName: "TMC Solicitors",
-        projectDesc: "Case Management System",
-        footerLink: [{
-            name: "Visit Website",
-            url: "https://www.leads.tmcsolicitors.co.uk/"
+    projects: [
+        {
+            image: "./assets/images/tmc.jpg",
+            projectName: "TMC Solicitors",
+            projectDesc: "Case Management System",
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://www.leads.tmcsolicitors.co.uk/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },
+        {
+            image: "./assets/images/drs.jpg",
+            projectName: "DRS",
+            projectDesc: "Resource Management System",
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://demo.mates.pk/drs/"
+                }
+            ]
         }
-            //  you can add extra buttons here.
-        ]
-    },
-    {
-        image: "./assets/images/drs.jpg",
-        projectName: "DRS",
-        projectDesc: "Resource Management System",
-        footerLink: [{
-            name: "Visit Website",
-            url: "https://demo.mates.pk/drs/"
-        }]
-    }
     ],
     display: true // Set false to hide this section, defaults to true
 };
@@ -264,60 +275,69 @@ const bigProjects = {
 
 const achievementSection = {
     title: emoji("Achievements And Certifications 🏆 "),
-    subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    subtitle:
+        "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
     achievementsCards: [
         {
             title: "Jira Fundamentals Badge",
             subtitle: "Atlassian University",
             image: "./assets/images/jirafundamentals.png",
-            footerLink: [{
-                name: "Badge",
-                url: "https://university.atlassian.com/student/award/M5LGU7QfuGugP4KdyUD7zuPK"
-            }
+            footerLink: [
+                {
+                    name: "Badge",
+                    url: "https://university.atlassian.com/student/award/M5LGU7QfuGugP4KdyUD7zuPK"
+                }
             ]
         },
         {
             title: "Virtual Experience Program Participant",
             subtitle: "JPMorgan Chase & Co.",
             image: "./assets/images/jpmorgen.jpg",
-            footerLink: [{
-                name: "Certification",
-                url: "https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_pa5777T5Ecqkxnx9L_completion_certificate.pdf"
-            }
+            footerLink: [
+                {
+                    name: "Certification",
+                    url: "https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_pa5777T5Ecqkxnx9L_completion_certificate.pdf"
+                }
             ]
         },
         {
             title: "Arctic Code Vault Contributor",
             subtitle: "GitHub",
             image: "./assets/images/github-arctic.png",
-            footerLink: [
-                { name: "Badge", url: "https://github.com/ImAliSheraz" }
-            ]
+            footerLink: [{ name: "Badge", url: "https://github.com/ImAliSheraz" }]
         },
         {
             title: "DSC Co-Lead",
             subtitle: "Google Developers",
             image: "./assets/images/dsc.png",
             footerLink: [
-                { name: "Certification", url: "https://dsc-certify.web.app/coreteam/68979542CACA503" }
+                {
+                    name: "Certification",
+                    url: "https://dsc-certify.web.app/coreteam/68979542CACA503"
+                }
             ]
         },
         {
             title: "Enterprise Design Thinking Practitioner",
             subtitle: "IBM",
             image: "./assets/images/IBM-Practitioner.png",
-            footerLink: [{
-                name: "Badge",
-                url: "https://www.credly.com/badges/8a763169-6739-4bbd-9fcf-0359b73712ec"
-            }]
+            footerLink: [
+                {
+                    name: "Badge",
+                    url: "https://www.credly.com/badges/8a763169-6739-4bbd-9fcf-0359b73712ec"
+                }
+            ]
         },
         {
             title: "IBM Blockchain Essentials V2",
             subtitle: "IBM",
             image: "./assets/images/IBM-Blockchain.png",
             footerLink: [
-                { name: "Badge", url: "https://www.youracclaim.com/badges/4d31406e-4dfe-45b8-bbb3-d10b965287bc" }
+                {
+                    name: "Badge",
+                    url: "https://www.youracclaim.com/badges/4d31406e-4dfe-45b8-bbb3-d10b965287bc"
+                }
             ]
         },
         {
@@ -325,7 +345,10 @@ const achievementSection = {
             subtitle: "Coursera",
             image: "./assets/images/Coursera.jpg",
             footerLink: [
-                { name: "Certification", url: "https://www.coursera.org/account/accomplishments/certificate/S3FAWYUSVCSY" }
+                {
+                    name: "Certification",
+                    url: "https://www.coursera.org/account/accomplishments/certificate/S3FAWYUSVCSY"
+                }
             ]
         },
 
@@ -334,7 +357,10 @@ const achievementSection = {
             subtitle: "Google Cloud Platform Certified",
             image: "./assets/images/gcp.png",
             footerLink: [
-                { name: "Certification", url: "https://google.qwiklabs.com/public_profiles/1bdcb1ee-7159-46e9-99e3-de31ab1636c3" }
+                {
+                    name: "Certification",
+                    url: "https://google.qwiklabs.com/public_profiles/1bdcb1ee-7159-46e9-99e3-de31ab1636c3"
+                }
             ]
         },
         {
@@ -342,7 +368,10 @@ const achievementSection = {
             subtitle: "Coursera & Google Cloud",
             image: "./assets/images/Coursera.jpg",
             footerLink: [
-                { name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/2B2T3ARA5XJT" }
+                {
+                    name: "Certification",
+                    url: "https://www.coursera.org/account/accomplishments/verify/2B2T3ARA5XJT"
+                }
             ]
         }
     ],
@@ -366,7 +395,8 @@ const blogSection = {
         {
             url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
             title: "Why REACT is The Best?",
-            description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+            description:
+                "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
         }
     ],
     display: false // Set false to hide this section, defaults to true
@@ -380,12 +410,14 @@ const talkSection = {
         "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
     ),
 
-    talks: [{
-        title: "Build Actions For Google Assistant",
-        subtitle: "Codelab at GDG DevFest Karachi 2019",
-        slides_url: "https://bit.ly/saadpasta-slides",
-        event_url: "https://www.facebook.com/events/2339906106275053/"
-    }],
+    talks: [
+        {
+            title: "Build Actions For Google Assistant",
+            subtitle: "Codelab at GDG DevFest Karachi 2019",
+            slides_url: "https://bit.ly/saadpasta-slides",
+            event_url: "https://www.facebook.com/events/2339906106275053/"
+        }
+    ],
     display: false // Set false to hide this section, defaults to true
 };
 
@@ -404,7 +436,8 @@ const podcastSection = {
 
 const contactInfo = {
     title: emoji("Contact Me ☎️"),
-    subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+    subtitle:
+        "Discuss a project or just want to say hi? My Inbox is open for all.",
     number: "+92-3174248414",
     email_address: "imalisheraz@gmail.com"
 };

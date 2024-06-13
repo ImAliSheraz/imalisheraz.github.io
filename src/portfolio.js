@@ -231,7 +231,7 @@ const workExperiences = {
                 "Led a team of 4+ web developers and interns.",
                 "Communicated with clients to address and resolve their technical concerns."
             ]
-        },
+        }
         // {
         //     role: "Software Engineer",
         //     company: "Mates Technologies",
