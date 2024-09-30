@@ -282,7 +282,7 @@ const bigProjects = {
       image: "./assets/images/salon.png",
       projectName: "Salon Symphony",
       projectDesc:
-        "Salon Symphony is an all-in-one employee management platform for beauty businesses, offering features like team chat, event posting, push notifications, and a survey builder to streamline communication. It promotes development through a resource library, quiz builder, and flashcard builder, while enhancing engagement with reward badges, employee surveys, and analytics. The platform also automates tasks like event reminders, onboarding flows, and task management, making it an ideal solution for efficient team management.",
+        "Salon Symphony is an all-in-one platform for beauty businesses, streamlining team management with features like team chat, event posting, and push notifications. It promotes staff development through tools like the resource library and quiz builder, while boosting engagement with surveys, reward badges, and analytics. It also automates tasks such as event reminders, onboarding, and task management for improved efficiency.",
       projectAssociation: "TekRevol",
       projectStartDate: "October 2022",
       projectEndDate: "February 2024",
