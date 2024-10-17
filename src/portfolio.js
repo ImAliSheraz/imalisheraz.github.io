@@ -262,22 +262,22 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    {
-      image: "./assets/images/dialog.png",
-      projectName: "Dialog",
-      projectDesc:
-        "Dialog is a comprehensive stakeholder management solution designed to address the complexities of modern projects. From a product perspective, it centralizes and streamlines stakeholder engagement, improving traceability, decision-making, and participation. Dialog reduces the dependencies ensuring that crucial knowledge is documented and easily accessible.",
-      projectAssociation: "OneClout",
-      projectStartDate: "March 2024",
-      projectEndDate: "",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.getdialog.io/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
+    // {
+    //   image: "./assets/images/dialog.png",
+    //   projectName: "Dialog",
+    //   projectDesc:
+    //     "Dialog is a comprehensive stakeholder management solution designed to address the complexities of modern projects. From a product perspective, it centralizes and streamlines stakeholder engagement, improving traceability, decision-making, and participation. Dialog reduces the dependencies ensuring that crucial knowledge is documented and easily accessible.",
+    //   projectAssociation: "OneClout",
+    //   projectStartDate: "March 2024",
+    //   projectEndDate: "",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://www.getdialog.io/"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
     {
       image: "./assets/images/salon.png",
       projectName: "Salon Symphony",
