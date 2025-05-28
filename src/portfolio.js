@@ -267,47 +267,46 @@ const bigProjects = {
       projectName: "Dialog",
       projectDesc:
         "Dialog is a comprehensive stakeholder management solution designed to address the complexities of modern projects. From a product perspective, it centralizes and streamlines stakeholder engagement, improving traceability, decision-making, and participation. Dialog reduces the dependencies ensuring that crucial knowledge is documented and easily accessible.",
-      projectAssociation: "OneClout",
-      projectStartDate: "March 2024",
-      projectEndDate: "",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.getdialog.io/"
-        }
-        //  you can add extra buttons here.
-      ]
+      // projectAssociation: "OneClout",
+      // projectStartDate: "March 2024",
+      // projectEndDate: "November 2025",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "https://www.getdialog.io/"
+      //   }
+      // ]
     },
     {
       image: "./assets/images/salon.png",
       projectName: "Salon Symphony",
       projectDesc:
         "Salon Symphony is an all-in-one platform for beauty businesses, streamlining team management with features like team chat, event posting, and push notifications. It promotes staff development through tools like the resource library and quiz builder, while boosting engagement with surveys, reward badges, and analytics. It also automates tasks such as event reminders, onboarding, and task management for improved efficiency.",
-      projectAssociation: "TekRevol",
-      projectStartDate: "October 2022",
-      projectEndDate: "February 2024",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://salonsymphonysoftware.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      // projectAssociation: "TekRevol",
+      // projectStartDate: "October 2022",
+      // projectEndDate: "February 2024",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "https://salonsymphonysoftware.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
     },
     {
       image: "./assets/images/tmc.jpg",
       projectName: "TMC Solicitors",
       projectDesc:
         "A comprehensive case management system for TMC Solicitors, a leading UK legal firm, using CodeIgniter PHP and Bootstrap. The system includes Leads Management, Client File Management, and a CRM for managing the entire client lifecycle, from lead to client. Additionally, I integrated HRM functionalities to streamline employee management, significantly improving operational efficiency for the firm.",
-      projectAssociation: "Mates Technologies",
-      projectStartDate: "June 2019",
-      projectEndDate: "September 2021",
-      footerLink: [
-        {
-          name: "Project Link",
-          url: "https://www.leads.tmcsolicitors.co.uk/"
-        }
-      ]
+      // projectAssociation: "Mates Technologies",
+      // projectStartDate: "June 2019",
+      // projectEndDate: "September 2021",
+      // footerLink: [
+      //   {
+      //     name: "Project Link",
+      //     url: "https://www.leads.tmcsolicitors.co.uk/"
+      //   }
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
