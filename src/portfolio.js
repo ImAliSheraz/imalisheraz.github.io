@@ -46,82 +46,94 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I Do",
   subTitle:
-    "I'm a Sr. SE with a passion for building reliable, high-availability, and secure applications. I'm experienced in creating scalable web solutions that drive business success.",
+    "I'm a Senior Software Engineer passionate about solving complex problems and building scalable, secure, and AI-powered systems. I specialize in back-end development, cloud infrastructure, and intelligent automation for real-world impact.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive back-end/front-end and APIs for your software."
-    ),
-    emoji(
-      "⚡ Integration of third party services such as Meta / GCP / AWS / Stripe / ZenDesk / GitHub."
-    ),
-    emoji(
-      "⚡ Experienced in developing solutions for a large number of business domains."
-    )
+    emoji("⚡ Design and develop scalable APIs, system architectures, and secure backend solutions using Laravel, Node.js, and FastAPI."),
+    emoji("⚡ Build and integrate AI/ML capabilities including RAG pipelines, agents, and LLM APIs into production-ready applications."),
+    emoji("⚡ Deploy and manage infrastructure on AWS, DigitalOcean, and Docker with CI/CD pipelines for high availability."),
+    emoji("⚡ Integrate third-party services like Stripe, GitHub, Meta APIs, ZenDesk, Firebase, and AWS for extended platform capabilities."),
+    emoji("⚡ Deliver full-stack solutions across e-commerce, CRM, dashboards, and AI tools with a focus on performance and business outcomes.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
+    // 🔧 Core Backend & Frameworks
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "Bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "jQuery",
-      fontAwesomeClassname: "fas fa-code"
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "PHP",
       fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "Laravel",
-      fontAwesomeClassname: "fab fa-laravel"
+      skillName: "NodeJs",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "CodeIgniter",
-      fontAwesomeClassname: "fas fa-fire-alt"
+      skillName: "FastAPI",
+      fontAwesomeClassname: "fas fa-bolt"
     },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+
+    // ⚛️ Frontend (Essentials Only)
     {
       skillName: "ReactJs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "NodeJs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Next.js",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
     },
+
+    // 🧠 AI & Data
     {
-      skillName: "SQL-Database",
+      skillName: "AI/ML",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+
+    // 🛢️ Databases
+    {
+      skillName: "SQL / MySQL / PostgreSQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-leaf"
     },
     {
       skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "GIT",
+      skillName: "Redis",
+      fontAwesomeClassname: "fas fa-memory"
+    },
+    {
+      skillName: "Elasticsearch",
+      fontAwesomeClassname: "fas fa-search"
+    },
+
+    // ☁️ DevOps & Tools
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Git",
       fontAwesomeClassname: "fas fa-code-branch"
     },
     {
@@ -129,8 +141,25 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "NPM",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "CI/CD",
+      fontAwesomeClassname: "fas fa-cogs"
+    },
+    {
+      skillName: "Postman",
+      fontAwesomeClassname: "fas fa-paper-plane"
+    },
+    // 🔥 Other
+    {
+      skillName: "CodeIgniter",
+      fontAwesomeClassname: "fas fa-fire-alt"
+    },
+    {
+      skillName: "Stripe",
+      fontAwesomeClassname: "fas fa-credit-card"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -158,31 +187,40 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Laravel", //Insert stack or technology you have experience in
-      progressPercentage: "98%" //Insert relative proficiency in percentage
+      Stack: "Backend Development (Laravel, Node.js, PHP)",
+      progressPercentage: "98%"
     },
     {
-      Stack: "React.js",
-      progressPercentage: "96%"
+      Stack: "Frontend Development (React.js)",
+      progressPercentage: "94%"
     },
     {
-      Stack: "Node.js",
-      progressPercentage: "95%"
-    },
-    {
-      Stack: "PHP",
-      progressPercentage: "97%"
-    },
-    {
-      Stack: "AWS",
+      Stack: "AI Integration (RAG, Agents, LLM APIs)",
       progressPercentage: "90%"
+    },
+    {
+      Stack: "Cloud & DevOps (AWS EC2, DigitalOcean, CI/CD)",
+      progressPercentage: "92%"
+    },
+    {
+      Stack: "Database Design (MySQL, PostgreSQL, MongoDB)",
+      progressPercentage: "93%"
+    },
+    {
+      Stack: "System Design & Architecture",
+      progressPercentage: "91%"
+    },
+    {
+      Stack: "Problem Solving & Debugging",
+      progressPercentage: "95%"
     }
   ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true
 };
+
 
 // Work experience section
 
@@ -390,7 +428,7 @@ const achievementSection = {
       title: "Arctic Code Vault Contributor",
       subtitle: "GitHub",
       image: "./assets/images/github-arctic.png",
-      footerLink: [{name: "Badge", url: "https://github.com/ImAliSheraz"}]
+      footerLink: [{ name: "Badge", url: "https://github.com/ImAliSheraz" }]
     },
     {
       title: "DSC Co-Lead",
